@@ -53,10 +53,10 @@ public class GRPCClientService {
 		MatrixServiceGrpc.MatrixServiceBlockingStub stub
 		 = MatrixServiceGrpc.newBlockingStub(channel);
 		MatrixReply A=stub.multiplyBlock(MatrixRequest.newBuilder()
-			.setA00(1)
-			.setA01(2)
-			.setA10(5)
-			.setA11(6)
+			.setA00(2)
+			.setA01(3)
+			.setA10(6)
+			.setA11(7)
 			.setB00(1)
 			.setB01(2)
 			.setB10(5)
